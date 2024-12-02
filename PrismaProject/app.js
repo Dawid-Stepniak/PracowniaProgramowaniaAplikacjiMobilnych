@@ -38,4 +38,14 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
+
+var wpisRouter = require('./routes/wpis');
+var kategoriaRouter = require('./routes/kategoria');
+var komentarzRouter = require('./routes/komentarz');
+
+app.use('/wpisy', wpisRouter);
+app.use('/kategorie', kategoriaRouter);
+app.use('/komentarze', komentarzRouter);
+
 module.exports = app;
