@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         email = findViewById(R.id.email);
         acceptBtn = findViewById(R.id.acceptBtn);
         message = findViewById(R.id.message);
+        message.setTextColor(android.graphics.Color.BLACK);
         password = findViewById(R.id.password);
         password2 = findViewById(R.id.password2);
     }
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         if(!hasDigit || !hasUpperCase || !hasLowerCase || passwordText.length()<8){
             passwordCorrect = false;
             message.setText("Hasło musi mieć min. 8 znaków i zawierać min. jedną liczbę, małą literę i wielką literę");
+            message.setTextColor(android.graphics.Color.RED);
         }
 
 
@@ -77,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!passwordText.equals(password2Text)){
             message.setText("Hasła się różnią");
+            message.setTextColor(android.graphics.Color.RED);
             samePasswords = false;
         }
         else{
@@ -89,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!matcher.matches()){
             message.setText("Nieprawidłowy adres email");
+            message.setTextColor(android.graphics.Color.RED);
             emailCorrect = false;
         }
         else{
