@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/headerPassword2"
+        android:layout_width="105dp"
+        android:layout_height="23dp"
+        android:text="Powtórz hasło:"
+        android:textColor="#898989"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="412dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/headerPassword"
+        android:layout_width="105dp"
+        android:layout_height="23dp"
+        android:text="Podaj hasło:"
+        android:textColor="#898989"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/headerRegister"
+        android:layout_width="410dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:background="#009688"
+        android:text="Rejestruj konto"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/headerEmail"
+        android:layout_width="105dp"
+        android:layout_height="23dp"
+        android:text="Podaj e-mail:"
+        android:textColor="#898989"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="412dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="412dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZATWIERDŹ"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="242dp"
+        android:background="@android:color/white"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
