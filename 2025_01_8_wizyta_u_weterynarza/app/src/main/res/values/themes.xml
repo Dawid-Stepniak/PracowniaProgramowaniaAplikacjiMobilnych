@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._2025_01_8_wizyta_u_weterynarza" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme._2025_01_8_wizyta_u_weterynarza" parent="Base.Theme._2025_01_8_wizyta_u_weterynarza" />
+    <style name="app_backround">
+        <item name="android:background">#90EE90</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">#008000</item>
+    </style>
+
+</resources>

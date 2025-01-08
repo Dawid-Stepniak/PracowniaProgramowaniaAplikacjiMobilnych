@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2025_01_8_wizyta_u_weterynarza</string>
+    <string name="header">Wizyta u weterynarza</string>
+    <string name="owner">Imię i nazwisko właściciela</string>
+    <string name="species">Gatunek</string>
+
+</resources>
