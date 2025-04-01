@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Zad_12_02_2025</string>
+    <string name="user_name">Imię</string>
+    <string name="user_email">Adres e-mail</string>
+    <string name="button_make_number_bigger">zwiększ liczbę</string>
+    <string name="click_count">Kliknąłeś przycisk 0 razy</string>
+</resources>
