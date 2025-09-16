@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">gra_w_kosci</string>
+    <string name="title_string">Gra w kości. Autor Dawid Stępniak</string>
+    <string name="button_string">RZUĆ KOŚĆMI</string>
+    <string name="lottery_results">Wyniki tego losowania: </string>
+    <string name="game_result">Wynik gry: </string>
+    <string name="reset_button">RESETUJ WYNIK</string>
+</resources>
