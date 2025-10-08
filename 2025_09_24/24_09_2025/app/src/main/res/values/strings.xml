@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">24_09_2025</string>
+    <string name="author">Autor: Dawid Stępniak</string>
+    <string name="home_appliances">Urządzenia domowe</string>
+    <string name="washing_machine">Pralka</string>
+    <string name="hint_text">Podaj nr prania 1..12</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="laundry_number">Numer prania: nie podano</string>
+    <string name="vacuum_cleaner">Odkurzacz</string>
+    <string name="turn_on">Włącz</string>
+    <string name="vacuum_cleaner_off">Odkurzacz wyłączony</string>
+    <string name="battery_status">Status: naładowany</string>
+</resources>
