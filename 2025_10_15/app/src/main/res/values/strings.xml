@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">2025_10_15</string>
+    <string name="house_in_moutains">Domek w górach</string>
+    <string name="like">POLUB</string>
+    <string name="delete">USUŃ</string>
+    <string name="save">ZAPISZ</string>
+    <string name="likes_count">0 polubień</string>
+    <string name="message">Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</string>
+    <string name="description">Opis</string>
+</resources>
