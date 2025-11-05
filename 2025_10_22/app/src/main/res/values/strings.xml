@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2025_10_22</string>
+    <string name="title_text">Wizyta u weterynarza</string>
+    <string name="hint_owner">Imię i nazwisko właściciela...</string>
+    <string name="label_species">Gatunek</string>
+    <string name="label_age">Ile ma lat?</string>
+    <string name="hint_purpose">Cel wizyty</string>
+    <string name="button_ok">OK</string>
+</resources>
